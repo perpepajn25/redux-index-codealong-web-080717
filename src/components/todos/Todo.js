@@ -3,12 +3,10 @@ import React, { Component } from 'react';
 class Todo extends Component {
 
   render() {
-    return(
-      <div>
-        Our Todo
-      </div>
+    return (
+      <li>{this.props.todo.text}</li>
     );
-  }
+  };
 };
 
-export default Todo;
+export default Todo
